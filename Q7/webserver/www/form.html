@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>간단한 폼</title>
+</head>
+<body>
+    <h1>메시지 입력</h1>
+    <form action="/cgi-bin/form.cgi" method="POST">
+        <p>
+            <label for="name">이름:</label><br>
+            <input type="text" id="name" name="name">
+        </p>
+        <p>
+            <label for="message">메시지:</label><br>
+            <textarea id="message" name="message"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="전송">
+        </p>
+    </form>
+</body>
+</html>
